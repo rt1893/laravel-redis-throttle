@@ -1,5 +1,5 @@
 {
-    "name": "rahultiwari/laravel-redis-throttle",
+    "name": "rt1893/laravel-redis-throttle",
     "description": "Configurable, Redis-backed API rate limiting for Laravel with per-user and per-route rules and standard rate-limit response headers.",
     "keywords": ["laravel", "rate limiting", "throttle", "redis", "api"],
     "license": "MIT",

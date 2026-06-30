@@ -1,6 +1,6 @@
 # Laravel Redis Throttle
 
-[![Tests](https://img.shields.io/badge/tests-passing-5eead4)](#)
+[![Tests](https://github.com/rt1893/laravel-redis-throttle/actions/workflows/tests.yml/badge.svg)](https://github.com/rt1893/laravel-redis-throttle/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 Configurable, Redis-backed rate limiting for Laravel APIs — per-user, per-route, with standard `X-RateLimit-*` response headers and `429 Too Many Requests` handling out of the box.
@@ -14,7 +14,7 @@ Built out of real production need: rate-limiting onboarding and search endpoints
 ## Installation
 
 ```bash
-composer require rahultiwari/laravel-redis-throttle
+composer require rt1893/laravel-redis-throttle
 ```
 
 The service provider is auto-discovered. Optionally publish the config:
@@ -92,4 +92,4 @@ Requires a local Redis instance (database index `1` is used by the test suite to
 
 ## License
 
-MIT © [Rahul Tiwari](https://github.com/rahultiwari)
+MIT © [Rahul Tiwari](https://github.com/rt1893)
