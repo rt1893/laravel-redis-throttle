@@ -1,0 +1,41 @@
+{
+    "name": "rahultiwari/laravel-redis-throttle",
+    "description": "Configurable, Redis-backed API rate limiting for Laravel with per-user and per-route rules and standard rate-limit response headers.",
+    "keywords": ["laravel", "rate limiting", "throttle", "redis", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rahul Tiwari",
+            "email": "rt1893.5@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0",
+        "illuminate/http": "^10.0|^11.0",
+        "illuminate/redis": "^10.0|^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RahulTiwari\\RedisThrottle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RahulTiwari\\RedisThrottle\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RahulTiwari\\RedisThrottle\\RedisThrottleServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
